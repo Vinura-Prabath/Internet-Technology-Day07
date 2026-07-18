@@ -172,3 +172,12 @@ console.log(instockItems);
 // console.log(newSalaryArry);
 
 
+const studentList = [
+    {id:"001", name:"saman", age:18},
+    {id:"002", name:"nimal", age:20},
+    {id:"003", name:"kamal", age:19},
+];
+
+let student = studentList.find(student => student.id === "003");
+
+console.log(student);
