@@ -70,16 +70,16 @@ console.log(instockItems);
 // console.log(revAr);
 
 
-const products = [
-    { name: "bun", inStock: true },
-    { name: "car", inStock: false },
-    { name: "bat", inStock: true },
-    { name: "van", inStock: false },
-];
+// const products = [
+//     { name: "bun", inStock: true },
+//     { name: "car", inStock: false },
+//     { name: "bat", inStock: true },
+//     { name: "van", inStock: false },
+// ];
 
 // final watch Line
 
-let inStockItems = products.filter(product => product.inStock == false);
+// let inStockItems = products.filter(product => product.inStock == false);
 
 // let inStockItems = products.filter(
 //     function (product) {
@@ -136,18 +136,18 @@ let inStockItems = products.filter(product => product.inStock == false);
 
 // Step 06 --------------------------------------
 
-let sample = txtValue => txtValue;
+// let sample = txtValue => txtValue;
 
 
-console.log(sample("Hi saman"));
+// console.log(sample("Hi saman"));
 
 
-const productsList = [
-    { name: "bun", inStock: true },
-    { name: "car", inStock: false },
-    { name: "bat", inStock: true },
-    { name: "van", inStock: false },
-];
+// const productsList = [
+//     { name: "bun", inStock: true },
+//     { name: "car", inStock: false },
+//     { name: "bat", inStock: true },
+//     { name: "van", inStock: false },
+// ];
 
 
 
@@ -156,4 +156,19 @@ const productsList = [
 // }
 
 
-productsList.forEach(product => console.log(product));
+// productsList.forEach(product => console.log(product));
+
+// const latterLirst = ["B","A","D","C"];
+
+// let sortAr = letterLirst.toSorted();
+
+// console.log(sortAr);
+
+
+// const employeeSalary = [75000, 50000, 100000, 80000];
+
+// let newSalaryArry = employeeSalary.map(salary => salary*2);
+
+// console.log(newSalaryArry);
+
+
